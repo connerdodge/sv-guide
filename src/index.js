@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import './styles/index.css';
+import SVGuide from './js/sv_guide';
+import registerServiceWorker from './js/register_service_worker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<SVGuide />, document.getElementById('root'));
 registerServiceWorker();
