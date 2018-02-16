@@ -1,0 +1,488 @@
+{
+    "spring": [
+        {
+            "bundle": "Spring Foraging",
+            "itemName": "Wild Horseradish",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Foraging",
+            "itemName": "Daffodil",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Foraging",
+            "itemName": "Leek",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Foraging",
+            "itemName": "Dandelion",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Exotic Foraging",
+            "itemName": "Morel",
+            "location": ["Secret Woods"],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Crops",
+            "itemName": "Parsnip",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Crops",
+            "itemName": "Green Bean",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Crops",
+            "itemName": "Cauliflower",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Spring Crops",
+            "itemName": "Potato",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Quality Crops",
+            "itemName": "Parnsip (Gold)",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Truffle Oil",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Honey",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Apricot",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Cherry",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Lake Fish",
+            "itemName": "Carp",
+            "location": ["Lake"],
+            "time": "6am-2am",
+            "weather": ""
+        },
+        {
+            "bundle": "Night Fishing",
+            "itemName": "Eel",
+            "location": ["Ocean"],
+            "time": "4pm-2am",
+            "weather": ""
+        },
+        {
+            "bundle": "River Fish",
+            "itemName": "Sunfish",
+            "location": ["River"],
+            "time": "6am-7pm",
+            "weather": "Sun"
+        },
+        {
+            "bundle": "River Fish",
+            "itemName": "Catfish",
+            "location": ["River"],
+            "time": "6am-2am",
+            "weather": "Rain"
+        },
+        {
+            "bundle": "River Fish",
+            "itemName": "Shad",
+            "location": ["River"],
+            "time": "9am-2am",
+            "weather": "Rain"
+        },
+        {
+            "bundle": "Ocean Fish",
+            "itemName": "Sardine",
+            "location": ["Ocean"],
+            "time": "6am-7pm",
+            "weather": ""
+        },
+        {
+            "bundle": "Chef",
+            "itemName": "Truffle",
+            "location": [],
+            "time": "",
+            "weather": ""
+        }
+    ],
+    "summer": [
+        {
+            "bundle": "Summer Foraging",
+            "itemName": "Grape",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Summer Foraging",
+            "itemName": "Spice Berry",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Summer Foraging",
+            "itemName": "Sweet Pea",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Exotic Foraging",
+            "itemName": "Red Mushroom",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Summer Crops",
+            "itemName": "Tomato",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Summer Crops",
+            "itemName": "Hot Pepper",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Summer Crops",
+            "itemName": "Blueberry",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Summer Crops",
+            "itemName": "Melon",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Crops",
+            "itemName": "Corn",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Quality Crops",
+            "itemName": "Melon (Gold)",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Quality Crops",
+            "itemName": "Corn (Gold)",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Orange",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Peach",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Lake Fish",
+            "itemName": "Sturgeon",
+            "location": ["Lake"],
+            "time": "6am-7pm",
+            "weather": ""
+        },
+        {
+            "bundle": "Specialty Fish",
+            "itemName": "Pufferfish",
+            "location": ["Ocean"],
+            "time": "12pm-4pm",
+            "weather": "Sun"
+        },
+        {
+            "bundle": "Ocean Fish",
+            "itemName": "Tuna",
+            "location": ["Ocean"],
+            "time": "6am-7pm",
+            "weather": ""
+        },
+        {
+            "bundle": "Ocean Fish",
+            "itemName": "Red Snapper",
+            "location": ["Ocean"],
+            "time": "6am-7pm",
+            "weather": "Rain"
+        },
+        {
+            "bundle": "Ocean Fish",
+            "itemName": "Tilapia",
+            "location": ["Ocean"],
+            "time": "6am-2pm",
+            "weather": ""
+        },
+        {
+            "bundle": "Fodder",
+            "itemName": "Wheat",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Dye",
+            "itemName": "Red Mushroom",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Dye",
+            "itemName": "Sunflower",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Dye",
+            "itemName": "Red Cabbage",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Chef",
+            "itemName": "Poppy",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Chef",
+            "itemName": "Truffle",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Chef",
+            "itemName": "Poppy",
+            "location": [],
+            "time": "",
+            "weather": ""
+        }
+    ],
+    "fall": [
+        {
+            "bundle": "Fall Foraging",
+            "itemName": "Common Mushroom",
+            "location": ["Secret Woods"],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Foraging",
+            "itemName": "Wild Plum",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Foraging",
+            "itemName": "Hazelnut",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Foraging",
+            "itemName": "Blackberry",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Crops",
+            "itemName": "Corn",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Crops",
+            "itemName": "Eggplant",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Crops",
+            "itemName": "Pumpkin",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Fall Crops",
+            "itemName": "Yam",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Quality Crops",
+            "itemName": "Pumpkin (Gold)",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Quality Crops",
+            "itemName": "Corn (Gold)",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Apple",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Artisan",
+            "itemName": "Pomegranate",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Night Fishing",
+            "itemName": "Walleye",
+            "location": ["River"],
+            "time": "12pm-2am",
+            "weather": "Rain"
+        },
+        {
+            "bundle": "River Fish",
+            "itemName": "Tiger Trout",
+            "location": ["River"],
+            "time": "6am-7pm",
+            "weather": ""
+        },
+        {
+            "bundle": "Fodder",
+            "itemName": "Apple x3",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Enchanter",
+            "itemName": "Pomegranate",
+            "location": [],
+            "time": "",
+            "weather": ""
+        }
+    ],
+    "winter": [
+        {
+            "bundle": "Winter Foraging",
+            "itemName": "Winter Root",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Winter Foraging",
+            "itemName": "Crystal Fruit",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Winter Foraging",
+            "itemName": "Snow Yam",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Winter Foraging",
+            "itemName": "Crocus",
+            "location": [],
+            "time": "",
+            "weather": ""
+        },
+        {
+            "bundle": "Field Research",
+            "itemName": "Nautilus Shell",
+            "location": [],
+            "time": "",
+            "weather": ""
+        }
+    ],
+    "any": [
+        {
+            "bundle": "ANY ANY",
+            "itemName": "ANYTHING",
+            "location": [],
+            "time": "",
+            "weather": ""
+        }
+    ]
+}

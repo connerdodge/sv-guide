@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SeasonSelector from './season_selector';
 import '../styles/community_center_guide.css';
+import CommunityCenterChecklist from './community_center_checklist';
 
 class CommunityCenterGuide extends Component {
   constructor (props) {
@@ -20,9 +21,12 @@ class CommunityCenterGuide extends Component {
   };
 
   render() {
-    let seasonSelector = null;
+    let guideContent = null;
     if (this.state.season === undefined || this.state.showSeasonSelector) {
-      seasonSelector = <SeasonSelector handleSeasonSelect={this.handleSeasonSelect.bind(this)}></SeasonSelector>;
+      guideContent = <SeasonSelector handleSeasonSelect={this.handleSeasonSelect.bind(this)}></SeasonSelector>;
+    }
+    else {
+      guideContent = <CommunityCenterChecklist season={this.state.season} />;
     }
 
     return (
@@ -32,7 +36,7 @@ class CommunityCenterGuide extends Component {
           <button className={'btn change-season-btn'} onClick={() => this.showSeasonSelector()}>Change Season</button>
         </header>
 
-        {seasonSelector}
+        {guideContent}
       
       </div>
     );
