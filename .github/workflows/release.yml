@@ -1,2 +1,3 @@
-- name: Bump version and publish release action
-  uses: MeilCli/bump-release-action@v1.0.2
+# .github/workflows/release.yml:
+name: Bump version and publish release action
+uses: MeilCli/bump-release-action@v1.0.2
