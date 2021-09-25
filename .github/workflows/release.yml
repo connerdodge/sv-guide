@@ -1,3 +1,7 @@
 # .github/workflows/release.yml:
 name: Bump version and publish release action
+on:
+  push:
+    branches:
+      - master
 uses: MeilCli/bump-release-action@v1.0.2
