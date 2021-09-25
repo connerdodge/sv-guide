@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CommunityCenterGuide from '../js/community_center_guide';
+import CommunityCenterGuide from '../js/CommunityCenterGuide';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

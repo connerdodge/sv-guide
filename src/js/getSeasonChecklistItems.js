@@ -1,6 +1,6 @@
 import items from './bundle_list.json';
 
-const handleChecklistItems = (season) => {
+const getSeasonChecklistItems = (season) => {
     switch (season) {
         case 'spring':
             return getSpringChecklistItems();
@@ -32,4 +32,4 @@ const getWinterChecklistItems = () => {
 };
 
 
-export default handleChecklistItems;
+export default getSeasonChecklistItems;
