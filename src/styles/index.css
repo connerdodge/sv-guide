@@ -6,8 +6,7 @@ body {
 
 @font-face {
   font-family: Stardew;
-  src: url("fonts/sv.ttf"),
-       url("fonts/sv.otf");
+  src: url('fonts/sv.ttf'), url('fonts/sv.otf');
 }
 
 .btn {
