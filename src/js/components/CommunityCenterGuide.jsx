@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SeasonSelector from './SeasonSelector';
-import '../styles/community_center_guide.css';
+import '../../styles/community_center_guide.css';
 import CommunityCenterChecklist from './CommunityCenterChecklist';
 
 const saveData = JSON.parse(localStorage.getItem('sv-guide-state')) || {};

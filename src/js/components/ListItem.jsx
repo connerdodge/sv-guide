@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/community_center_checklist.css';
+import '../../styles/community_center_checklist.css';
 
 function ListItem({ item: { itemName, bundle, location, time, weather }}) {
     const [checked, setChecked] = useState(false);

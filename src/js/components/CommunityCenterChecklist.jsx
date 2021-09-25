@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import getSeasonChecklistItems from './getSeasonChecklistItems';
+import getSeasonChecklistItems from '../service/getSeasonChecklistItems';
 import ListItem from './ListItem';
 
 function CommunityCenterChecklist ({ season }) {

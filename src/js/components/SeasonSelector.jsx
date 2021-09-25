@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/season_selector.css';
-import springSrc from '../img/spring-season.png';
-import summerSrc from '../img/summer-season.png';
-import fallSrc from '../img/fall-season.png';
-import winterSrc from '../img/winter-season.png';
+import '../../styles/season_selector.css';
+import springSrc from '../../img/spring-season.png';
+import summerSrc from '../../img/summer-season.png';
+import fallSrc from '../../img/fall-season.png';
+import winterSrc from '../../img/winter-season.png';
 
 function SeasonSelector({ handleSeasonSelect }) {
     return (

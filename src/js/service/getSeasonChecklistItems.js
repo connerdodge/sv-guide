@@ -1,4 +1,4 @@
-import items from './bundle_list.json';
+import items from '../bundle_list.json';
 
 const getSeasonChecklistItems = (season) => {
     switch (season) {
