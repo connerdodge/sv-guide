@@ -1,6 +1,7 @@
 {
   "name": "sv-guide",
   "version": "0.1.0",
+  "homepage": "https://connerdodge.github.io/sv-guide",
   "private": true,
   "dependencies": {
     "react": "16.14.0",
@@ -9,12 +10,15 @@
     "styled-components": "5.3.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "gh-pages": "3.2.3",
     "prettier": "2.4.1"
   }
 }
