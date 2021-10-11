@@ -1,28 +1,42 @@
 import React, { useState } from 'react';
-import '../../styles/community_center_checklist.css';
+import styled from 'styled-components';
 
 function ListItem({ item: { itemName, bundle, location, time, weather } }) {
   const [checked, setChecked] = useState(false);
 
-  let containerClasses = checked
-    ? 'list-item-container item-checked'
-    : 'list-item-container';
   return (
-    <div className="list-item">
-      <div className={containerClasses}>
-        <input
-          className="list-item-check"
-          type="checkbox"
-          onClick={() => setChecked(!checked)}
-        />
-        <div className="list-item-name">{itemName}</div>
-        <div className="list-item-bundle">{bundle}</div>
-        <div className="list-item-location">{location}</div>
-        <div className="list-item-time">{time}</div>
-        <div className="list-item-weather">{weather}</div>
-      </div>
-    </div>
+    <Container style={checked ? { color: '#888', textDecoration: 'line-through' } : null}>
+      <StyledInput
+        type="checkbox"
+        onClick={() => setChecked(!checked)}
+      />
+      <StyledName>{itemName}</StyledName>
+      <StyledInfo>{bundle}</StyledInfo>
+      <StyledInfo>{location}</StyledInfo>
+      <StyledInfo>{time}</StyledInfo>
+      <StyledInfo>{weather}</StyledInfo>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  margin-top: 34px;
+  display: inline-flex;
+  color: #444;
+`;
+
+const StyledInput = styled.input`
+  margin-right: 15px;
+  transform: scale(1.75);
+`;
+
+const StyledName = styled.span`
+  font-weight: bold;
+  padding-right: 10px;
+`;
+
+const StyledInfo = styled.span`
+  padding-right: 10px;
+`;
 
 export default ListItem;
