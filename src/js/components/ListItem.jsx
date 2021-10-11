@@ -11,10 +11,6 @@ function ListItem({ item: { itemName, bundle, location, time, weather } }) {
         onClick={() => setChecked(!checked)}
       />
       <StyledName>{itemName}</StyledName>
-      <StyledInfo>{bundle}</StyledInfo>
-      <StyledInfo>{location}</StyledInfo>
-      <StyledInfo>{time}</StyledInfo>
-      <StyledInfo>{weather}</StyledInfo>
     </Container>
   );
 }
@@ -32,10 +28,6 @@ const StyledInput = styled.input`
 
 const StyledName = styled.span`
   font-weight: bold;
-  padding-right: 10px;
-`;
-
-const StyledInfo = styled.span`
   padding-right: 10px;
 `;
 

@@ -34,10 +34,7 @@ function CommunityCenterGuide() {
     <Container>
       <StyledHeader>
         <StyledHeading>Stardew Valley Community Center Guide</StyledHeading>
-        <StyledButton
-          className={'btn change-season-btn'}
-          onClick={() => setShowSeasonSelector(true)}
-        >
+        <StyledButton onClick={() => setShowSeasonSelector(true)}>
           Change Season
         </StyledButton>
       </StyledHeader>

@@ -75,7 +75,6 @@
             ]
           },
           {
-            "id": "3",
             "name": "Fall Foraging",
             "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/95/Bundle_Orange.png/32px-Bundle_Orange.png",
             "reward": "Fall Seeds (30)",
@@ -111,7 +110,6 @@
             ]
           },
           {
-            "id": "4",
             "name": "Winter Foraging",
             "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Bundle_Teal.png/32px-Bundle_Teal.png",
             "reward": "Winter Seeds (30)",
@@ -147,31 +145,94 @@
             ]
           },
           {
-            "id": "5",
             "name": "Construction",
             "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Bundle_Red.png/32px-Bundle_Red.png",
             "reward": "Charcoal Kiln",
-            "items": []
+            "items": [
+              {
+                "season": "any",
+                "itemName": "Wood (99)",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/36px-Wood.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "any",
+                "itemName": "Wood (99)",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/36px-Wood.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "any",
+                "itemName": "Stone (99)",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Stone.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "any",
+                "itemName": "Hardwood (10)",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Hardwood.png",
+                "location": ["Large Stumps"],
+                "time": "",
+                "weather": ""
+              }
+            ]
           },
           {
-            "id": "6",
             "name": "Exotic Foraging",
             "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a1/Bundle_Purple.png/32px-Bundle_Purple.png",
             "reward": "Autumn's Bounty (5)",
             "items": [
               {
-                "season": "spring",
-                "itemName": "Morel",
-                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Morel.png/24px-Morel.png",
-                "location": ["Secret Woods"],
+                "season": "any",
+                "itemName": "Coconut",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Coconut.png/36px-Coconut.png",
+                "location": ["Desert"],
                 "time": "",
                 "weather": ""
               },
               {
-                "season": "fall",
+                "season": "any",
+                "itemName": "Cactus Fruit",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png",
+                "location": ["Desert"],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "any",
+                "itemName": "Cave Carrot",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/34/Cave_Carrot.png/36px-Cave_Carrot.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "any",
                 "itemName": "Red Mushroom",
                 "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png",
                 "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "any",
+                "itemName": "Purple Mushroom",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Purple_Mushroom.png/36px-Purple_Mushroom.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "spring",
+                "itemName": "Morel",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Morel.png/24px-Morel.png",
+                "location": ["Secret Woods"],
                 "time": "",
                 "weather": ""
               }
@@ -203,381 +264,5 @@
         "name": "Missing Bundle",
         "reward": "Movie Theater"
       }
-    ],
-  "spring": [
-    {
-      "bundle": "Spring Crops",
-      "itemName": "Parsnip",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Spring Crops",
-      "itemName": "Green Bean",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Spring Crops",
-      "itemName": "Cauliflower",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Spring Crops",
-      "itemName": "Potato",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Quality Crops",
-      "itemName": "Parnsip (Gold)",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Truffle Oil",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Honey",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Apricot",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Cherry",
-      "icon": "",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Lake Fish",
-      "itemName": "Carp",
-      "location": ["Lake"],
-      "time": "6am-2am",
-      "weather": ""
-    },
-    {
-      "bundle": "Night Fishing",
-      "itemName": "Eel",
-      "location": ["Ocean"],
-      "time": "4pm-2am",
-      "weather": ""
-    },
-    {
-      "bundle": "River Fish",
-      "itemName": "Sunfish",
-      "location": ["River"],
-      "time": "6am-7pm",
-      "weather": "Sun"
-    },
-    {
-      "bundle": "River Fish",
-      "itemName": "Catfish",
-      "location": ["River"],
-      "time": "6am-2am",
-      "weather": "Rain"
-    },
-    {
-      "bundle": "River Fish",
-      "itemName": "Shad",
-      "location": ["River"],
-      "time": "9am-2am",
-      "weather": "Rain"
-    },
-    {
-      "bundle": "Ocean Fish",
-      "itemName": "Sardine",
-      "location": ["Ocean"],
-      "time": "6am-7pm",
-      "weather": ""
-    },
-    {
-      "bundle": "Chef",
-      "itemName": "Truffle",
-      "location": [],
-      "time": "",
-      "weather": ""
-    }
-  ],
-  "summer": [
-    {
-      "bundle": "Summer Crops",
-      "itemName": "Tomato",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Summer Crops",
-      "itemName": "Hot Pepper",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Summer Crops",
-      "itemName": "Blueberry",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Summer Crops",
-      "itemName": "Melon",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Crops",
-      "itemName": "Corn",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Quality Crops",
-      "itemName": "Melon (Gold)",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Quality Crops",
-      "itemName": "Corn (Gold)",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Orange",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Peach",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Lake Fish",
-      "itemName": "Sturgeon",
-      "location": ["Lake"],
-      "time": "6am-7pm",
-      "weather": ""
-    },
-    {
-      "bundle": "Specialty Fish",
-      "itemName": "Pufferfish",
-      "location": ["Ocean"],
-      "time": "12pm-4pm",
-      "weather": "Sun"
-    },
-    {
-      "bundle": "Ocean Fish",
-      "itemName": "Tuna",
-      "location": ["Ocean"],
-      "time": "6am-7pm",
-      "weather": ""
-    },
-    {
-      "bundle": "Ocean Fish",
-      "itemName": "Red Snapper",
-      "location": ["Ocean"],
-      "time": "6am-7pm",
-      "weather": "Rain"
-    },
-    {
-      "bundle": "Ocean Fish",
-      "itemName": "Tilapia",
-      "location": ["Ocean"],
-      "time": "6am-2pm",
-      "weather": ""
-    },
-    {
-      "bundle": "Fodder",
-      "itemName": "Wheat",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Dye",
-      "itemName": "Red Mushroom",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Dye",
-      "itemName": "Sunflower",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Dye",
-      "itemName": "Red Cabbage",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Chef",
-      "itemName": "Poppy",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Chef",
-      "itemName": "Truffle",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Chef",
-      "itemName": "Poppy",
-      "location": [],
-      "time": "",
-      "weather": ""
-    }
-  ],
-  "fall": [
-    {
-      "bundle": "Fall Crops",
-      "itemName": "Corn",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Crops",
-      "itemName": "Eggplant",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Crops",
-      "itemName": "Pumpkin",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Crops",
-      "itemName": "Yam",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Quality Crops",
-      "itemName": "Pumpkin (Gold)",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Quality Crops",
-      "itemName": "Corn (Gold)",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Apple",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Artisan",
-      "itemName": "Pomegranate",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Night Fishing",
-      "itemName": "Walleye",
-      "location": ["River"],
-      "time": "12pm-2am",
-      "weather": "Rain"
-    },
-    {
-      "bundle": "River Fish",
-      "itemName": "Tiger Trout",
-      "location": ["River"],
-      "time": "6am-7pm",
-      "weather": ""
-    },
-    {
-      "bundle": "Fodder",
-      "itemName": "Apple x3",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Enchanter",
-      "itemName": "Pomegranate",
-      "location": [],
-      "time": "",
-      "weather": ""
-    }
-  ],
-  "winter": [
-    {
-      "bundle": "Field Research",
-      "itemName": "Nautilus Shell",
-      "location": [],
-      "time": "",
-      "weather": ""
-    }
-  ],
-  "any": [
-    {
-      "bundle": "ANY ANY",
-      "itemName": "ANYTHING",
-      "location": [],
-      "time": "",
-      "weather": ""
-    }
-  ]
+    ]
 }
