@@ -8,22 +8,3 @@ body {
   font-family: Stardew;
   src: url('fonts/sv.ttf'), url('fonts/sv.otf');
 }
-
-.btn {
-  background-color: white;
-  height: 40px;
-  width: 150px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  background-color: rgb(184, 255, 208);
-  cursor: pointer;
-}
-
-.btn:focus {
-  outline: none;
-}
