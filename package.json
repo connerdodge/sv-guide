@@ -4,7 +4,7 @@
   "homepage": "https://connerdodge.github.io/sv-guide",
   "private": true,
   "dependencies": {
-    "classnames": "^2.3.1",
+    "classnames": "2.3.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-scripts": "1.1.0",
