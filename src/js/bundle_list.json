@@ -1,43 +1,214 @@
 {
+  "groups": [
+      {
+        "name": "Crafts Room",
+        "reward": "Bridge Repair",
+        "bundles": [
+          {
+            "name": "Spring Foraging",
+            "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b3/Bundle_Green.png/32px-Bundle_Green.png",
+            "reward": "Spring Seeds (30)",
+            "items": [
+              {
+                "season": "spring",
+                "itemName": "Wild Horseradish",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/90/Wild_Horseradish.png/24px-Wild_Horseradish.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "spring",
+                "itemName": "Daffodil",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Daffodil.png/24px-Daffodil.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "spring",
+                "itemName": "Leek",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/57/Leek.png/24px-Leek.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "spring",
+                "itemName": "Dandelion",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Dandelion.png/24px-Dandelion.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              }
+            ]
+          },
+          {
+            "name": "Summer Foraging",
+            "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2b/Bundle_Yellow.png/32px-Bundle_Yellow.png",
+            "reward": "Summer Seeds (30)",
+            "items": [
+              {
+                "season": "summer",
+                "itemName": "Grape",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Grape.png/24px-Grape.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "summer",
+                "itemName": "Spice Berry",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Spice_Berry.png/24px-Spice_Berry.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "summer",
+                "itemName": "Sweet Pea",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d9/Sweet_Pea.png/24px-Sweet_Pea.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "name": "Fall Foraging",
+            "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/95/Bundle_Orange.png/32px-Bundle_Orange.png",
+            "reward": "Fall Seeds (30)",
+            "items": [
+              {
+                "season": "fall",
+                "itemName": "Common Mushroom",
+                "location": ["Secret Woods"],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "fall",
+                "itemName": "Wild Plum",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "fall",
+                "itemName": "Hazelnut",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "fall",
+                "itemName": "Blackberry",
+                "location": [],
+                "time": "",
+                "weather": ""
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "name": "Winter Foraging",
+            "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Bundle_Teal.png/32px-Bundle_Teal.png",
+            "reward": "Winter Seeds (30)",
+            "items": [
+              {
+                "season": "winter",
+                "itemName": "Winter Root",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "winter",
+                "itemName": "Crystal Fruit",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "winter",
+                "itemName": "Snow Yam",
+                "location": [],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "winter",
+                "itemName": "Crocus",
+                "location": [],
+                "time": "",
+                "weather": ""
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "name": "Construction",
+            "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Bundle_Red.png/32px-Bundle_Red.png",
+            "reward": "Charcoal Kiln",
+            "items": []
+          },
+          {
+            "id": "6",
+            "name": "Exotic Foraging",
+            "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a1/Bundle_Purple.png/32px-Bundle_Purple.png",
+            "reward": "Autumn's Bounty (5)",
+            "items": [
+              {
+                "season": "spring",
+                "itemName": "Morel",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Morel.png/24px-Morel.png",
+                "location": ["Secret Woods"],
+                "time": "",
+                "weather": ""
+              },
+              {
+                "season": "fall",
+                "itemName": "Red Mushroom",
+                "icon": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png",
+                "location": [],
+                "time": "",
+                "weather": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pantry",
+        "reward": "Greenhouse"
+      },
+      {
+        "name": "Fish Tank",
+        "reward": "Glittering Boulder Removed"
+      },
+      {
+        "name": "Boiler Room",
+        "reward": "Minecarts Repaired"
+      },
+      {
+        "name": "Bulletin Board",
+        "reward": "Friendship"
+      },
+      {
+        "name": "Vault",
+        "reward": "Bus Repair"
+      },
+      {
+        "name": "Missing Bundle",
+        "reward": "Movie Theater"
+      }
+    ],
   "spring": [
-    {
-      "bundle": "Spring Foraging",
-      "itemName": "Wild Horseradish",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Spring Foraging",
-      "itemName": "Daffodil",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Spring Foraging",
-      "itemName": "Leek",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Spring Foraging",
-      "itemName": "Dandelion",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Exotic Foraging",
-      "itemName": "Morel",
-      "location": ["Secret Woods"],
-      "time": "",
-      "weather": ""
-    },
     {
       "bundle": "Spring Crops",
       "itemName": "Parsnip",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -45,6 +216,7 @@
     {
       "bundle": "Spring Crops",
       "itemName": "Green Bean",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -52,6 +224,7 @@
     {
       "bundle": "Spring Crops",
       "itemName": "Cauliflower",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -59,6 +232,7 @@
     {
       "bundle": "Spring Crops",
       "itemName": "Potato",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -66,6 +240,7 @@
     {
       "bundle": "Quality Crops",
       "itemName": "Parnsip (Gold)",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -73,6 +248,7 @@
     {
       "bundle": "Artisan",
       "itemName": "Truffle Oil",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -80,6 +256,7 @@
     {
       "bundle": "Artisan",
       "itemName": "Honey",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -87,6 +264,7 @@
     {
       "bundle": "Artisan",
       "itemName": "Apricot",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -94,6 +272,7 @@
     {
       "bundle": "Artisan",
       "itemName": "Cherry",
+      "icon": "",
       "location": [],
       "time": "",
       "weather": ""
@@ -149,34 +328,6 @@
     }
   ],
   "summer": [
-    {
-      "bundle": "Summer Foraging",
-      "itemName": "Grape",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Summer Foraging",
-      "itemName": "Spice Berry",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Summer Foraging",
-      "itemName": "Sweet Pea",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Exotic Foraging",
-      "itemName": "Red Mushroom",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
     {
       "bundle": "Summer Crops",
       "itemName": "Tomato",
@@ -327,34 +478,6 @@
   ],
   "fall": [
     {
-      "bundle": "Fall Foraging",
-      "itemName": "Common Mushroom",
-      "location": ["Secret Woods"],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Foraging",
-      "itemName": "Wild Plum",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Foraging",
-      "itemName": "Hazelnut",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Fall Foraging",
-      "itemName": "Blackberry",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
       "bundle": "Fall Crops",
       "itemName": "Corn",
       "location": [],
@@ -440,34 +563,6 @@
     }
   ],
   "winter": [
-    {
-      "bundle": "Winter Foraging",
-      "itemName": "Winter Root",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Winter Foraging",
-      "itemName": "Crystal Fruit",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Winter Foraging",
-      "itemName": "Snow Yam",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
-    {
-      "bundle": "Winter Foraging",
-      "itemName": "Crocus",
-      "location": [],
-      "time": "",
-      "weather": ""
-    },
     {
       "bundle": "Field Research",
       "itemName": "Nautilus Shell",

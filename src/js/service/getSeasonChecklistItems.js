@@ -15,20 +15,24 @@ const getSeasonChecklistItems = (season) => {
   }
 };
 
+const getGroups = () => {
+  return items['groups'];
+};
+
 const getSpringChecklistItems = () => {
-  return items['spring'].concat(items['any']);
+  return items['spring'];
 };
 
 const getSummerChecklistItems = () => {
-  return items['summer'].concat(items['any']);
+  return items['summer'];
 };
 
 const getFallChecklistItems = () => {
-  return items['fall'].concat(items['any']);
+  return items['fall'];
 };
 
 const getWinterChecklistItems = () => {
-  return items['winter'].concat(items['any']);
+  return items['winter'];
 };
 
-export default getSeasonChecklistItems;
+export { getSeasonChecklistItems, getGroups };
