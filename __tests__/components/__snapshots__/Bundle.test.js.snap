@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-hKgJUU btQklQ"
+  >
+    <span
+      class="sc-eCstlR bXLgGK"
+    >
+      Spring Foraging
+    </span>
+    <span
+      class="sc-jSgvzq gopgTe"
+    >
+      Reward: 
+      Spring Seeds (30)
+    </span>
+    <div
+      class="sc-gKseQn bPHTMe"
+    >
+      <div
+        class="sc-bdfBQB cnnJGR"
+      >
+        <input
+          type="checkbox"
+          class="sc-gsTEea fmJIQB"
+        />
+        <span
+          class="sc-dlfnuX pUKlA"
+        >
+          Wild Horseradish
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
