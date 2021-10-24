@@ -33,6 +33,7 @@ function CommunityCenterGuide() {
   return (
     <Container>
       <StyledHeader>
+        <StyledLink href="https://stardewvalleywiki.com/Bundles">Bundles Official Wiki</StyledLink>
         <StyledHeading>Stardew Valley Community Center Guide</StyledHeading>
         <StyledButton onClick={() => setShowSeasonSelector(true)}>
           Change Season
@@ -52,11 +53,20 @@ const StyledHeader = styled.header`
   height: 50px;
   padding: 20px;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
 `;
 
 const StyledHeading = styled.h1`
   font-size: 1.5em;
+  margin: 0;
   text-align: center;
+`;
+
+const StyledLink = styled.a`
+  font-size: 18px;
+  color: white;
 `;
 
 const StyledButton = styled.button`
@@ -66,11 +76,7 @@ const StyledButton = styled.button`
   font-size: 0.9em;
   font-weight: bold;
   border-radius: 5px;
-
-  float: right;
-  position: absolute;
-  top: 30px;
-  right: 25px;
+  margin-top: 6px;
 
   &:hover {
     background-color: rgb(184, 255, 208);
